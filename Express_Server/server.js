@@ -3,7 +3,7 @@ const express = require("express") //O módulo express retorna uma função que 
 const app = express() //A função express cria uma instância de todo o framework express em app
 
 //Cria o Servidor com o express
-const porta = 3001
+const porta = 3000
 app.listen(porta, function(){
     console.log(`Servidor Rodando na porta ${porta}`);
 })
